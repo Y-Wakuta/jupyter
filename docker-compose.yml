@@ -1,0 +1,7 @@
+jupyter_notebook:
+    build: .
+    container_name: "jnotebook_wakuta"
+    ports:
+      - "8889:8888"
+    volumes:
+      - "./work:/home/jovyan/work/"
